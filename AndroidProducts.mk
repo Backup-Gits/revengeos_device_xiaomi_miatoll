@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_curtana.mk
+    $(LOCAL_DIR)/statix_curtana.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_curtana-user \
-    lineage_curtana-userdebug \
-    lineage_curtana-eng
+    statix_curtana-user \
+    statix_curtana-userdebug \
+    statix_curtana-eng
