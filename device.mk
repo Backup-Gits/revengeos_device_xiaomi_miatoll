@@ -41,7 +41,7 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Soong namespaces
-QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES := $(LOCAL_PATH)
 
 # Permissions
 PRODUCT_COPY_FILES += \
