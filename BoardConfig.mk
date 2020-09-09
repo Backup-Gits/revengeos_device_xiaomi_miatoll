@@ -26,6 +26,9 @@ DEVICE_PATH := device/xiaomi/curtana
 
 BOARD_VENDOR := xiaomi
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 
