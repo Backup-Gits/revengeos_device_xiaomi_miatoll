@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
     r-gsi.avbpubkey \
     s-gsi.avbpubkey
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder.vendor
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     BluetoothQti
