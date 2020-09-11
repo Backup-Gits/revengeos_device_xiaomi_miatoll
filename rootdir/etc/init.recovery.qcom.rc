@@ -11,5 +11,4 @@ on fs
 service init-recovery-qcom-sh /init.recovery.qcom.sh
     user root
     group root
-    seclabel u:r:recovery:s0
     oneshot
