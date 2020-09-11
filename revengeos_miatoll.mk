@@ -7,6 +7,9 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
+# Animation
+TARGET_BOOT_ANIMATION_RES := 1440
+
 PRODUCT_NAME := revengeos_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
