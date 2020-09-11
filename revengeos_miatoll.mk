@@ -5,7 +5,7 @@
 #
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
-$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 PRODUCT_NAME := revengeos_miatoll
 PRODUCT_DEVICE := miatoll
