@@ -30,7 +30,7 @@ BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_DUP_RULES := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
+TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram
 
 # AVB
 BOARD_AVB_ENABLE := true
