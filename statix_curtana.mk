@@ -37,4 +37,4 @@ TARGET_VENDOR_PRODUCT_NAME := curtana
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="curtana-user 10 QKQ1.191215.002 V11.0.9.0.QJWMIXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.9.0.QJWMIXM:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
