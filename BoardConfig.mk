@@ -173,8 +173,8 @@ ODM_MANIFEST_SKUS += \
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_atoll
-TARGET_RECOVERY_DEVICE_MODULES := libinit_atoll
+#TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_atoll
+#TARGET_RECOVERY_DEVICE_MODULES := libinit_atoll
 
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
@@ -234,12 +234,10 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 VENDOR_SECURITY_PATCH := 2020-07-01
 
 # SELinux
-#include device/qcom/sepolicy/sepolicy.mk
-#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-#BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
-#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
+include device/qcom/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
