@@ -20,7 +20,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/google/gms/config.mk)
 
 # Inherit from curtana device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
